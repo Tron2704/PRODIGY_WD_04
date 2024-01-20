@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <a href="#header">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="image-container">
+        <div class="centered-text">
+            <h1>Rohit M. Modak</h1>
+            <h3>Web Developer</h3>
+            <a href="#about">
+                <button class="findout">Find Out More</button>
+            </a>
+
+        </div>
+    </div>
+
+    <main>
+        <div id="about">
+            <div class="about-head">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-con">
+                <div class="con1">
+                    <img src="photo.jpg" alt="">
+                </div>
+                <div class="con2">
+                    <div class="about-txt">
+                        <p>" Hey, I'm a 21-year-old creative techie on a mission to blend design and development,
+                            infusing life into ideas. Beyond pixels and code, I'm a passionate photographer, turning
+                            everyday scenes into unforgettable memories.Music is my constant groove, nature is my
+                            sanctuary—I love capturing landscapes as much as exploring them. Movies are my escape, where
+                            captivating stories on the big screen inspire and relax me. "</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="downbtn" onclick="scrollToEducation()">
+                <svg fill="#000000" height="20px" width="20px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                </svg>
+            </button>
+        </div>
+
+        <div id="education">
+            <div class="education-head">
+                <h2>Education</h2>
+            </div>
+            <div class="education-con">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Year</th>
+                            <th>Institute Name</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bachelor's Degree</td>
+                            <td>2020-2023</td>
+                            <td>Mulund College of Commerce</td>
+                            <td>
+                                <div class="circle-container">
+                                    <div class="small-circle">
+                                        75%
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12th Board</td>
+                            <td>2018-2020</td>
+                            <td>Pragati College of Arts and Commerce</td>
+                            <td>
+                                <div class="circle-container2">
+                                    <div class="small-circle2">
+                                        77%
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10th Board</td>
+                            <td>2018</td>
+                            <td>Shree Vailankanni English School</td>
+                            <td>
+                                <div class="circle-container3">
+                                    <div class="small-circle3">
+                                        88%
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="cvbtn">
+                <button class="cv"><a href="https://drive.google.com/file/d/12cVWqzUZZALgQhYWW3s9bWHt9MZ-EaxL/view?usp=sharing">Download CV</a></button>
+            </div>
+            <button class="downbtn" onclick="scrollToSkills()">
+                <svg fill="#000000" height="20px" width="20px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                </svg>
+            </button>
+        </div>
+
+        <div id="skills">
+            <div class="skills-head">
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-con">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skills</th>
+                            <th>Experience</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>
+                                <div class="progress-bar bar1"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>
+                                <div class="progress-bar bar2"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>JAVASCRIPT</td>
+                            <td>
+                                <div class="progress-bar bar3"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Android Development</td>
+                            <td>
+                                <div class="progress-bar bar4"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Python Programming</td>
+                            <td>
+                                <div class="progress-bar bar5"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Desktop Publishing</td>
+                            <td>
+                                <div class="progress-bar bar6"></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <button class="downbtn" onclick="scrollToProjects()">
+                <svg fill="#000000" height="20px" width="20px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                </svg>
+            </button>
+        </div>
+        <div id="projects">
+            <div class="projects-head">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-con">
+                <div class="l1">
+                    <div class="one">
+                        <img src="calc.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <a href="https://github.com/Tron2704/oibsip_task1.git">
+                                    <h3>Web based Calculator</h3>
+                                </a>
+                                <p>Elegant web-based calculator with sleek design, responsive interface, and sophisticated functionality for seamless and stylish calculations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two">
+                        <img src="login.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <a href="https://github.com/Tron2704/oibsip_task4.git">
+                                    <h3>Login Authentication</h3>
+                                </a>
+                                <p>Secure login authentication with tailored sign-up, ensuring authorized access by verifying credentials, providing a fortified gateway to protected pages.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="l2">
+                    <div class="one">
+                        <img src="stop.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <a href="https://github.com/Tron2704/PRODIGY_WD_02.git">
+                                    <h3>Stopwatch Web Application</h3>
+                                </a>
+                                <p>Interactive stopwatch web app with start, pause, reset functions, track lap times, and ensure accurate time intervals for user-friendly experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two">
+                        <img src="weather.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <a href="https://github.com/Tron2704/PRODIGY_WD_05.git">
+                                    <h3>Weather App</h3>
+                                </a>
+                                <p>Utilizes weather API for real-time data, fetch current conditions and temperature based on user's or inputted location, presenting comprehensive weather information.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="downbtn" onclick="scrollToContact()">
+                <svg fill="#000000" height="20px" width="20px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                </svg>
+            </button>
+        </div>
+    </main>
+    <footer>
+        <div id="contact">
+            <div class="contact-head">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-con">
+                <h2>Available for work. Get in touch</h2>
+                <h3>Unlock the potential of your digital presence! Let's collaborate on web development and desktop publishing projects that breathe creativity into every pixel. Contact me for a digital journey like never before!</h3>
+                <div class="scmedia">
+                    <a href="https://github.com/Tron2704">
+                        <img src="github.png" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/rohit-modak-620a20246">
+                        <img src="linkedin.png" alt="">
+                    </a>
+                    <a href="mailto:rohitmodak400@gmail.com">
+                        <img src="gmail.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/singe.1405_?utm_source=qr&igsh=MXJ4c3ZjczY3Mjh4eA==">
+                        <img src="instagram.png" alt="">
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="copyright">
+                <small>&copy; 2024 Tron Editz - Web Developer </small>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
